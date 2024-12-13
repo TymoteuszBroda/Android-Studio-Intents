@@ -4,4 +4,5 @@
     <string name="intentTextView">Jestem nową intencją</string>
     <string name="btnParametrIntent">Intencja z parametrm</string>
     <string name="parameterIntent">Jestem intencją z parametrem</string>
+    <string name="btnWebView">Moja ulubiona strona</string>
 </resources>

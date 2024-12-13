@@ -1,6 +1,7 @@
 package com.example.pam03;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -39,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, IntencjaParametr.class);
         intent.putExtra("zmienna", "Jestem przekazanym parametrem");
         startActivity(intent);
+    }
+
+    public void Website(View v){
+        Uri u = Uri.parse("https://www.ue.katowice.pl/");
+        Intent i = new Intent(Intent.ACTION_VIEW, u);
+        startActivity(i);
     }
 
 
