@@ -34,5 +34,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToNewActivityWithParameter(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, IntencjaParametr.class);
+        intent.putExtra("zmienna", "Jestem przekazanym parametrem");
+        startActivity(intent);
+    }
+
 
 }
