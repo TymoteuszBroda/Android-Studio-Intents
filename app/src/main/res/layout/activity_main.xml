@@ -41,4 +41,37 @@
         app:layout_constraintTop_toBottomOf="@+id/btnNewActivity"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="map"
+        android:text="adres"
+        app:layout_constraintBottom_toTopOf="@+id/btnParametrActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCallendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="kalendarz"
+        android:text="Kalendarz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWebView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="wlaczAparat"
+        android:text="Włącz aparat"
+        app:layout_constraintBottom_toTopOf="@+id/btnMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
