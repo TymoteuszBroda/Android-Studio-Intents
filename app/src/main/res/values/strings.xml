@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PAM03</string>
+    <string name="btnNewActivity">Nowa Aktywność</string>
 </resources>
