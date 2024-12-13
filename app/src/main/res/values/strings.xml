@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">PAM03</string>
     <string name="btnNewActivity">Nowa Aktywność</string>
+    <string name="intentTextView">Jestem nową intencją</string>
+    <string name="btnParametrIntent">Intencja z parametrm</string>
 </resources>
